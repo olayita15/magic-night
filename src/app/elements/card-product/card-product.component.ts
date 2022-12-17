@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-product.component.scss']
 })
 export class CardProductComponent {
-
+  title:string ='Falda';
+  prize:string ='$'+70000;
 }

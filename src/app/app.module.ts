@@ -12,6 +12,7 @@ import { HeaderComponent } from './sections/header/header.component';
 import { FooterComponent } from './sections/footer/footer.component';
 import { CategoryComponent } from './sub-pages/category/category.component';
 import { ProductComponent } from './sub-pages/product/product.component';
+import { SliderCardsComponent } from './sections/slider-cards/slider-cards.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProductComponent } from './sub-pages/product/product.component';
     HeaderComponent,
     FooterComponent,
     CategoryComponent,
-    ProductComponent
+    ProductComponent,
+    SliderCardsComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,16 @@
+
+
+.navbar-toggler{
+    color: black;
+    border: 0;
+   
+}
+
+@media screen and (min-width: 992px) {
+    #logoIcon {
+        order: -2;
+    }
+    #navbarSupportedContent {
+        order: -1;
+    }
+  }
