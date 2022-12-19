@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { WhatsappService } from '../../services/whatsapp/whatsapp.service';
 
 @Component({
   selector: 'app-card-product',
@@ -6,6 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-product.component.scss']
 })
 export class CardProductComponent {
-  title:string ='Falda';
-  prize:string ='$'+70000;
+  url:string| undefined;
+  @Input() image:string | undefined;
+  @Input()title!: string;
+  @Input() prize:string | undefined;
+  constructor(private _servicio:WhatsappService) {}
+
+  helpInformation(){
+    this._servicio.sendHelp(this.title)
+    this.url = this._servicio.url
+  }
+
 }

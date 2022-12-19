@@ -4,20 +4,13 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="sliderBox">
-            <app-card-product></app-card-product>
-            <app-card-product></app-card-product>
+            <app-card-product *ngFor="let product of products" [image]='product.image' [title]="product.title" [prize]="product.prize"></app-card-product>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" *ngFor="let product of products; index as i">
         <div class="sliderBox">
-            <app-card-product></app-card-product>
-            <app-card-product></app-card-product>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="sliderBox">
-            <app-card-product></app-card-product>
-            <app-card-product></app-card-product>
+            <app-card-product [image]='products[i+2].image' [title]="product.title" [prize]="product.prize"></app-card-product>
+            <app-card-product [image]='products[i+3].image' [title]="product.title" [prize]="product.prize"></app-card-product>
         </div>
       </div>
     </div>

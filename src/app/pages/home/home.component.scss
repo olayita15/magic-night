@@ -1,0 +1,30 @@
+#allProductsBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("https://cdnx.jumpseller.com/jacobo-en-linea/image/6625559/resize/1200/1200?1654996262");
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+}
+
+#categorySection{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdnx.jumpseller.com/jacobo-en-linea/image/6625559/resize/1200/1200?1654996262");
+    background-size:cover;
+
+}
+
+#categorySection div button{
+    
+    width: 100px;
+    margin: 10px 35px;
+}
+
+button {
+    margin-bottom: 20px;
+}
