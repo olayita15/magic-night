@@ -8,13 +8,15 @@ import data from '../../assets/products.json';
 export class ProductsService implements OnInit {
   productList:any =[]
   categoryList:any =[]
-  constructor() { 
-  }
+  imageCategoryList:any=[]
+  constructor() {}
 
   ngOnInit(): void {
     this.addProduct()
     this.addListCategory()
     console.log(this.categoryList)
+    this.addImageCategory()
+    console.log(this.imageCategoryList)
   }
   
    addProduct(){
@@ -31,4 +33,12 @@ export class ProductsService implements OnInit {
     })
     this.categoryList = list
   };
+
+  addImageCategory(){
+    console.log(this.addListCategory.length)
+    for(let i = 0 ; i < 7; i++){
+      const found = this.productList.find((element: any) => element.category == this.categoryList[i]);
+      this.imageCategoryList.push(found.image)
+    }
+  }
 }

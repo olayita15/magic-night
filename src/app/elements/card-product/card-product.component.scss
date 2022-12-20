@@ -1,7 +1,7 @@
 img {
-    width: 150px;
+    width: 200px;
     height: 220px;
-    margin: 5px;
+    margin-top: 15px;
 }
 
 h5 {
@@ -18,5 +18,12 @@ div {
 }
 
 .navbar-brand{
-    margin: 0 15px;
+    margin: 0 25px;
+}
+
+#buttonBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }

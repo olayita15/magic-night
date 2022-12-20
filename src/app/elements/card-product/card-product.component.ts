@@ -10,8 +10,8 @@ import { ProductsService } from '../../services/products.service';
 export class CardProductComponent implements OnInit{
   url:string| undefined;
   @Input() image:string | undefined;
-  @Input()title!: string;
-  @Input() prize:string | undefined;
+  @Input() title!: string;
+  @Input() prize:number | undefined;
   constructor(private _servicio:WhatsappService, private _productService:ProductsService) {}
   ngOnInit(): void {
     

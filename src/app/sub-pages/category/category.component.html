@@ -1,13 +1,15 @@
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<h1>Categorías</h1>
+<hr>
+<section>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <app-card-category></app-card-category>
+        <app-card-category [title]="firstCategory" [image]="firstImageCategory"></app-card-category>
       </div>
-      <div class="carousel-item">
-        <app-card-category></app-card-category>
-      </div>
-      <div class="carousel-item">
-        <app-card-category></app-card-category>
+      <div class="carousel-item" *ngFor="let category of categorys; index as i">
+        <app-card-category [title]="category" [image]="ImageCategory[i]"></app-card-category>
       </div>
     </div>
   </div>
+</section>
+
