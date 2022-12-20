@@ -9,8 +9,7 @@
       </div>
       <div class="carousel-item" *ngFor="let product of products; index as i">
         <div class="sliderBox">
-            <app-card-product [image]='products[i+2].image' [title]="product.title" [prize]="product.prize"></app-card-product>
-            <app-card-product [image]='products[i+3].image' [title]="product.title" [prize]="product.prize"></app-card-product>
+            <app-card-product [image]='products[i].image' [title]="products[i].title" [prize]="products[i].prize"></app-card-product>
         </div>
       </div>
     </div>

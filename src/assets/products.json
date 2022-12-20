@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "title": "Falda de 8 piezas estampada",
+    "image": "https://www.adrissa.com.co/5496-thickbox_default/vestido-para-mujer-estampado-lunares-falda-rotonda-.jpg",
+    "prize": 60000,
+    "description": "Talla S, M, L",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 2,
+    "title": "Falda recta",
+    "image": "",
+    "prize": 55000,
+    "description": "tallas: S, M, L Colores: Negro, Rojo, Vino tinto, Fucsia.",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 3,
+    "title": "Falda recta con abertura",
+    "image": "",
+    "prize": 60000,
+    "description": "tallas: S, M, L",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 4,
+    "title": "Mini-falda cuerina",
+    "image": "",
+    "prize": 60000,
+    "description": "Platinada o mate. Colores: Negro, Plateado, Dorado, Purpura, verder.",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 5,
+    "title": "Falda circular Cuerina Platinada",
+    "image": "",
+    "prize": 60000,
+    "description": "",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 6,
+    "title": "Falda en cuerina doble abertura",
+    "image": "",
+    "prize": 60000,
+    "description": "",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 7,
+    "title": "Pantalón Palazzo",
+    "image": "",
+    "prize": 90000,
+    "description": "",
+    "category": "pantalones",
+    "availability": true
+  },
+  {
+    "id": 8,
+    "title": "Pantalón cuerina",
+    "image": "",
+    "prize": 80000,
+    "description": "",
+    "category": "pantalones",
+    "availability": true
+  },
+  {
+    "id": 9,
+    "title": "Tulas en cuerina, diseños personalizados",
+    "image": "",
+    "prize": 30000,
+    "description": "",
+    "category": "accesorios",
+    "availability": true
+  },
+  {
+    "id": 10,
+    "title": "Corsete rock chil",
+    "image": "",
+    "prize": 40000,
+    "description": "Color: Negro y Nude.",
+    "category": "vestidos",
+    "availability": true
+  },
+  {
+    "id": 11,
+    "title": "Blusa con transparencias",
+    "image": "",
+    "prize": 55000,
+    "description": "Talla : S y M, Color: Negro y Cafe.",
+    "category": "blusas",
+    "availability": true
+  },
+  {
+    "id": 12,
+    "title": "Corsete en satín",
+    "image": "",
+    "prize": 70000,
+    "description": "Color: Varios Talla: S y M",
+    "category": "vestidos",
+    "availability": true
+  },
+  {
+    "id": 13,
+    "title": "Arnés en cuerina",
+    "image": "",
+    "prize": 35000,
+    "description": "",
+    "category": "lencería",
+    "availability": true
+  },
+  {
+    "id": 14,
+    "title": "Lencería",
+    "image": "",
+    "prize": 55000,
+    "description": "Rojo, Vinotinto, Negro. 3 piezas: bratlette, panty, liguero",
+    "category": "lencería",
+    "availability": true
+  },
+  {
+    "id": 15,
+    "title": "Chaqueta sintética en cuerina",
+    "image": "",
+    "prize": 150000,
+    "description": "Talla S y M",
+    "category": "chaquetas",
+    "availability": true
+  },
+  {
+    "id": 16,
+    "title": "Crop top fruncido",
+    "image": "",
+    "prize": 35000,
+    "description": "Color: blanco y negro Talla: S y M",
+    "category": "vestidos",
+    "availability": true
+  },
+  {
+    "id": 17,
+    "title": "Crop top fruncido",
+    "image": "",
+    "prize": 35000,
+    "description": "Color: blanco y negro Talla: S y M",
+    "category": "vestidos",
+    "availability": true
+  }
+]

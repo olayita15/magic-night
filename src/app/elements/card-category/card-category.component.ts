@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-category.component.scss']
 })
 export class CardCategoryComponent {
-
+  image!:string;
+  title!:string;
+  text!:string;
+  updated!:string;
 }

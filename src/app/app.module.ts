@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // SERVICES
 import { WhatsappService } from './services/whatsapp/whatsapp.service';
+import { ProductsService } from './services/products.service';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -47,7 +48,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   providers: [
-    WhatsappService
+    WhatsappService,
+    ProductsService
   ],
   bootstrap: [AppComponent]
 })
