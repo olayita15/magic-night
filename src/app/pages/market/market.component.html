@@ -1,2 +1,14 @@
 <h1>Tú Bolsa</h1>
 <hr>
+<div class="d-flex flex-row flex-wrap-reverse justify-content-around">
+    <app-card-product *ngFor="let product of products" [id]="product.id" [image]='product.image' [title]="product.title" [prize]="product.prize/1000">
+
+    </app-card-product>
+</div>
+<hr>
+<h2>Precio Total: ${{updateTotalPrize()/1000}}.000</h2>
+<a type="button" class="btn btn-success" href={{sendBuy()}} target="_blank">Comprar</a>
+<hr>
+
+<app-slider-cards></app-slider-cards>
+

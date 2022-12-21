@@ -34,7 +34,6 @@ export class ProductsService implements OnInit {
     })
     this.categoryList = list
   };
-
   addImageCategory(){
     console.log(this.addListCategory.length)
     for(let i = 0 ; i < 7; i++){
@@ -42,8 +41,10 @@ export class ProductsService implements OnInit {
       this.imageCategoryList.push(found.image)
     }
   }
-
   addFilterList(category:string){
     return this.productList.filter(productList=>productList.category==category)
+  }
+  findProduct(id:number){
+    return this.productList.find(product=>product.id==id)
   }
 }
