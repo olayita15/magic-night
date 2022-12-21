@@ -1,3 +1,5 @@
-<!-- <div class="d-flex flex-wrap">
-    <app-card-product></app-card-product>
-  </div> -->
+<div id="categoryBox" class="d-flex flex-row flex-wrap-reverse justify-content-around">
+  <a *ngFor="let category of categorys; index as i" [routerLink]="['/product',categorys[i]]">
+    <app-card-category [title]='categorys[i]' [image]='ImageCategory[i]'></app-card-category>
+  </a>
+</div>

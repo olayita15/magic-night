@@ -25,6 +25,7 @@ const routes: Routes = [
   { path: 'our', component: OurComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'market', component: MarketComponent },
+  { path: 'product/:category', component: ProductComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
 
