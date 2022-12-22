@@ -1,15 +1,23 @@
+<!-- Subsection that filters the categories from the json object and saves them in a card layout -->
 <h1>Categorías</h1>
 <hr>
-<section>
+<section id="categorySection1">
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <app-card-category [title]="firstCategory" [image]="firstImageCategory"></app-card-category>
+        <app-card-category [title]="firstCategory" [image]="firstImageCategory" [routerLink]="['/product',firstCategory]"></app-card-category>
       </div>
-      <div class="carousel-item" *ngFor="let category of categorys; index as i">
+      <div class="carousel-item" *ngFor="let category of categorys; index as i" [routerLink]="['/product',categorys[i]]">
         <app-card-category [title]="category" [image]="ImageCategory[i]"></app-card-category>
       </div>
     </div>
+  </div>
+</section>
+<section id="categorySection2">
+  <div id="categoryBox" class="d-flex flex-row flex-wrap-reverse justify-content-around">
+    <a *ngFor="let category of categorys; index as i" [routerLink]="['/product',categorys[i]]">
+      <app-card-category [title]='categorys[i]' [image]='ImageCategory[i]'></app-card-category>
+    </a>
   </div>
 </section>
 
