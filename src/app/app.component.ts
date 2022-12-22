@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Renderer2, Input } from '@angular/core';
 import { ProductsService } from './services/products.service';
 
 
@@ -8,7 +8,9 @@ import { ProductsService } from './services/products.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  constructor(private _service:ProductsService){}
+  constructor(private _service:ProductsService){
+  
+  }
   title = 'magic-night';
   ngOnInit(): void {
     this._service.ngOnInit()
