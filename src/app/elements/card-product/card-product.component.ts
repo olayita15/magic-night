@@ -16,7 +16,9 @@ export class CardProductComponent{
   @Input() prize:number | undefined;
   constructor(private _servicio:WhatsappService, 
     private _productService:ProductsService, 
-    private _marketService:MarketService) {}
+    private _marketService:MarketService) {
+      
+    }
 
   helpInformation(){
     this._servicio.sendHelp(this.title)

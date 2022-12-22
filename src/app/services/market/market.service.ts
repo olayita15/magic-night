@@ -13,9 +13,15 @@ export class MarketService {
   addProduct(id:number){
     this.shoppingCartList.push(this._service.findProduct(id))
     alert('Se agregó el item')
-    console.log(this.shoppingCartList)
     this.purchasedItems=this.shoppingCartList.length
-    console.log(this.purchasedItems)
+  }
+  findProduct(id:number){
+    return this.shoppingCartList.find(product=>product.id==id)
+  }
+
+  removeProduct(id:number){
+    this.shoppingCartList.splice(this.shoppingCartList.indexOf(this.findProduct(id)),1)
+    this.purchasedItems=this.shoppingCartList.length
   }
 
 }

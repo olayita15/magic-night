@@ -30,5 +30,9 @@ export class MarketComponent {
     return this._wService.sendPurchases(this.products)
   }
 
+  removeProduct(id:number){
+    this._service.removeProduct(id)
+  }
+
 
 }

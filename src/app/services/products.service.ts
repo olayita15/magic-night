@@ -34,6 +34,7 @@ export class ProductsService implements OnInit {
     })
     this.categoryList = list
   };
+  
   addImageCategory(){
     console.log(this.addListCategory.length)
     for(let i = 0 ; i < 7; i++){

@@ -1,14 +1,24 @@
 <h1>Tú Bolsa</h1>
 <hr>
 <div class="d-flex flex-row flex-wrap-reverse justify-content-around">
-    <app-card-product *ngFor="let product of products" [id]="product.id" [image]='product.image' [title]="product.title" [prize]="product.prize/1000">
-
-    </app-card-product>
+    <div class="d-flex flex-column flex-wrap-reverse justify-content-around" *ngFor="let product of products">
+        <a >
+            <app-card-product  [id]="product.id" [image]='product.image' [title]="product.title" [prize]="product.prize/1000">
+            </app-card-product>
+        </a>
+        <div  class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary">-</button>
+            <button type="button" class="btn btn-outline-primary" (click)="removeProduct(product.id)">Borrar</button>
+            <button type="button" class="btn btn-outline-primary">+</button>
+          </div>
+    </div>
+    
 </div>
-<hr>
-<h2>Precio Total: ${{updateTotalPrize()/1000}}.000</h2>
-<a type="button" class="btn btn-success" href={{sendBuy()}} target="_blank">Comprar</a>
-<hr>
-
+<div class="d-flex flex-column flex-wrap-reverse justify-content-center">
+    <hr>
+    <h2>Precio Total: ${{updateTotalPrize()/1000}}.000</h2>
+    <a type="button" class="btn btn-success" href={{sendBuy()}} target="_blank">Comprar</a>
+    <hr>
+</div>
 <app-slider-cards></app-slider-cards>
 
