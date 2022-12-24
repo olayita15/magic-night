@@ -1,26 +1,26 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 import data from '../../assets/products.json';
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class ProductsService implements OnInit {
+export class ProductsService {
   productList:any[]=[]
   categoryList:any[]=[]
   imageCategoryList:any[]=[]
+  lengthImageCategoryList:number=1
   productFilterList:any[]=[]
-  constructor() {}
-
-  ngOnInit(): void {
+  searchList:any[]=[]
+  
+  constructor() {
     this.addProduct()
     this.addListCategory()
-    console.log(this.categoryList)
     this.addImageCategory()
-    console.log(this.imageCategoryList)
+    this.searchList = this.productList
   }
   
-   addProduct(){
+  addProduct(){
     this.productList = data
     console.log(this.productList)
   }
@@ -33,11 +33,10 @@ export class ProductsService implements OnInit {
       return this.categoryList.indexOf(v) === i;
     })
     this.categoryList = list
+    this.lengthImageCategoryList = list.length
   };
-  
   addImageCategory(){
-    console.log(this.addListCategory.length)
-    for(let i = 0 ; i < 7; i++){
+    for(let i = 0 ; i < this.lengthImageCategoryList; i++){
       const found = this.productList.find((element: any) => element.category == this.categoryList[i]);
       this.imageCategoryList.push(found.image)
     }
@@ -47,5 +46,14 @@ export class ProductsService implements OnInit {
   }
   findProduct(id:number){
     return this.productList.find(product=>product.id==id)
+  }
+  findProductText(text:string){
+    console.log(this.productList.find(product=>product.title==text))
+    return this.productList.find(product=>product.title==text||product.category==text)
+  }
+  updatedSearchList(text:string){
+    let list:any[]=[];
+    list.push(this.findProductText(text))
+    this.searchList = list
   }
 }
