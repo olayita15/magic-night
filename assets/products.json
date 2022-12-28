@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Falda recta",
-    "image": "/assets/img/faldaRecta.jpeg",
+    "image": "../assets/img/faldaRecta.jpeg",
     "prize": 55000,
     "description": "tallas: S, M, L Colores: Negro, Rojo, Vino tinto, Fucsia.",
     "category": "faldas",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Falda recta con abertura",
-    "image": "/assets/img/faldaAbertura.jpeg",
+    "image": "/../assets/img/faldaAbertura.jpeg",
     "prize": 60000,
     "description": "tallas: S, M, L",
     "category": "faldas",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Mini-falda cuerina",
-    "image": "/assets/img/minifaldaCuerina.jpeg",
+    "image": "./../assets/img/minifaldaCuerina.jpeg",
     "prize": 60000,
     "description": "Platinada o mate. Colores: Negro, Plateado, Dorado, Purpura, verder.",
     "category": "faldas",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Falda circular Cuerina Platinada",
-    "image": "/assets/img/faldaCircularPlatinada.jpeg",
+    "image": "../../assets/img/faldaCircularPlatinada.jpeg",
     "prize": 60000,
     "description": "",
     "category": "faldas",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Falda en cuerina doble abertura",
-    "image": "/assets/img/faldaCuerinaDobleAbertura.jpeg",
+    "image": "/../../assets/img/faldaCuerinaDobleAbertura.jpeg",
     "prize": 60000,
     "description": "",
     "category": "faldas",
