@@ -1,6 +1,6 @@
 <section>
   <div class="d-flex flex-row flex-wrap-reverse justify-content-around ">
-    <app-card-product *ngFor="let product of products; index as i" 
+    <app-card-product *ngFor="let product of product(); index as i" 
     [id]="product.id"
     [title]="product.title" 
     [image]="product.image" 

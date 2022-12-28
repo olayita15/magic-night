@@ -9,5 +9,9 @@ import { ProductsService } from '../../services/products.service';
 })
 export class ProductsComponent {
   constructor(private _service:ProductsService){}
-  products = this._service.searchList;
+  product(){
+    let list:any[] =[]
+    list = this._service.searchList;
+    return list
+  }
 }

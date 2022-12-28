@@ -20,8 +20,8 @@ export class HeaderComponent {
   }
 
   searchProducts(input:any): void{
-    console.log(input.target.value)
-    this._serviceProduct.updatedSearchList(input)
+    // console.log(input.target.value)
+    this._serviceProduct.findProductList(input.target.value)
     this.router.navigate(['products'], { relativeTo: this.route });
   }
 }

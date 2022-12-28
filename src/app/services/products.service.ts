@@ -47,13 +47,18 @@ export class ProductsService {
   findProduct(id:number){
     return this.productList.find(product=>product.id==id)
   }
-  findProductText(text:string){
-    console.log(this.productList.find(product=>product.title==text))
-    return this.productList.find(product=>product.title==text||product.category==text)
+  filterList(text1:any, text2:string){
+    if(text1.includes(text2)){
+      console.log(text1)
+      return true
+    }
+    else{
+      console.log(text1)
+      return false
+    }
   }
-  updatedSearchList(text:string){
-    let list:any[]=[];
-    list.push(this.findProductText(text))
-    this.searchList = list
+  findProductList(text:string){
+    this.searchList= this.productList.filter(product=>this.filterList(product.title.toLowerCase(),text.toLowerCase())||this.filterList(product.category.toLowerCase(),text.toLowerCase()))
   }
+
 }
