@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "title": "Falda de 8 piezas estampada",
+    "image": "/assets/img/faldaEstampada8.jpeg",
+    "prize": 60000,
+    "description": "Talla S, M, L",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 2,
+    "title": "Falda recta",
+    "image": "/assets/img/faldaRecta.jpeg",
+    "prize": 55000,
+    "description": "tallas: S, M, L Colores: Negro, Rojo, Vino tinto, Fucsia.",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 3,
+    "title": "Falda recta con abertura",
+    "image": "/assets/img/faldaAbertura.jpeg",
+    "prize": 60000,
+    "description": "tallas: S, M, L",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 4,
+    "title": "Mini-falda cuerina",
+    "image": "/assets/img/minifaldaCuerina.jpeg",
+    "prize": 60000,
+    "description": "Platinada o mate. Colores: Negro, Plateado, Dorado, Purpura, verder.",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 5,
+    "title": "Falda circular Cuerina Platinada",
+    "image": "/assets/img/faldaCircularPlatinada.jpeg",
+    "prize": 60000,
+    "description": "",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 6,
+    "title": "Falda en cuerina doble abertura",
+    "image": "/assets/img/faldaCuerinaDobleAbertura.jpeg",
+    "prize": 60000,
+    "description": "",
+    "category": "faldas",
+    "availability": true
+  },
+  {
+    "id": 7,
+    "title": "Pantalón Palazzo",
+    "image": "/assets/img/pantalonPalazo.jpeg",
+    "prize": 90000,
+    "description": "",
+    "category": "pantalones",
+    "availability": true
+  },
+  {
+    "id": 8,
+    "title": "Pantalón cuerina",
+    "image": "/assets/img/pantalonCuerina.jpeg",
+    "prize": 80000,
+    "description": "",
+    "category": "pantalones",
+    "availability": true
+  },
+  {
+    "id": 9,
+    "title": "Tulas en cuerina, diseños personalizados",
+    "image": "/assets/img/tulaCuerina.jpeg",
+    "prize": 30000,
+    "description": "",
+    "category": "accesorios",
+    "availability": true
+  },
+  {
+    "id": 10,
+    "title": "Corsete rock chil",
+    "image": "/assets/img/corseteRockChil.jpeg",
+    "prize": 40000,
+    "description": "Color: Negro y Nude.",
+    "category": "vestidos",
+    "availability": true
+  },
+  {
+    "id": 11,
+    "title": "Blusa con transparencias",
+    "image": "/assets/img/blusaTransparente.jpeg",
+    "prize": 55000,
+    "description": "Talla : S y M, Color: Negro y Cafe.",
+    "category": "blusas",
+    "availability": true
+  },
+  {
+    "id": 12,
+    "title": "Corsete en satín",
+    "image": "/assets/img/corseteSatin.jpeg",
+    "prize": 70000,
+    "description": "Color: Varios Talla: S y M",
+    "category": "vestidos",
+    "availability": true
+  },
+  {
+    "id": 13,
+    "title": "Arnés en cuerina",
+    "image": "/assets/img/arnesCuerina.jpeg",
+    "prize": 35000,
+    "description": "",
+    "category": "lencería",
+    "availability": true
+  },
+  {
+    "id": 14,
+    "title": "Lencería",
+    "image": "/assets/img/lenceria.jpeg",
+    "prize": 55000,
+    "description": "Rojo, Vinotinto, Negro. 3 piezas: bratlette, panty, liguero",
+    "category": "lencería",
+    "availability": true
+  },
+  {
+    "id": 15,
+    "title": "Chaqueta sintética en cuerina",
+    "image": "/assets/img/chaquetaCuerina.jpeg",
+    "prize": 150000,
+    "description": "Talla S y M",
+    "category": "chaquetas",
+    "availability": true
+  },
+  {
+    "id": 16,
+    "title": "Crop top fruncido",
+    "image": "/assets/img/cropTop.jpeg",
+    "prize": 35000,
+    "description": "Color: blanco y negro Talla: S y M",
+    "category": "vestidos",
+    "availability": true
+  },
+  {
+    "id": 17,
+    "title": "Aretes flor verde",
+    "image": "/assets/img/aretesFlorVerde.jpeg",
+    "prize": 10000,
+    "description": "Oro brasilero",
+    "category": "accesorios",
+    "availability": true
+  }
+]
