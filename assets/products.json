@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Falda de 8 piezas estampada",
-    "image": "/assets/img/faldaEstampada8.jpeg",
+    "image": "./assets/img/faldaEstampada8.jpeg",
     "prize": 60000,
     "description": "Talla S, M, L",
     "category": "faldas",
