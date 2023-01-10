@@ -1,0 +1,29 @@
+img {
+    width: 200px;
+    height: 220px;
+    margin-top: 15px;
+}
+
+h5 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand{
+    margin: 0 25px;
+}
+
+#buttonBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}

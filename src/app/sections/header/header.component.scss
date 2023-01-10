@@ -1,0 +1,69 @@
+
+
+.navbar-toggler{
+    color: black;
+    border: 0;
+   
+}
+
+#cicleCount{
+    background-color: #2F4B4C;
+}
+
+#textLogoIcon{
+    position: relative;
+    font-size:medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: #2F4B4C;
+    margin-top: 10px;
+    color: #F1C1BD;
+  
+}
+
+#textLogoIcon:before{
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 7em;
+    white-space: nowrap;
+    color: #2F4B4C;
+    animation: loading 2s linear;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
+
+#navbarIcon{
+    color: #2F4B4C;
+    border: 0;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    #textLogoIcon{
+        display: none;
+    }
+    #logoIcon {
+        order: -2;
+    }
+    #navbarSupportedContent {
+        order: -1;
+    }
+    #searchItem{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    #imgLogoIcon{
+        display: none;
+    }
+    #searchMain{
+        display: none;
+    }
+}

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef, Renderer2, Input } from '@angular/core';
+import { ProductsService } from './services/products.service';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor(private _service:ProductsService){}
   title = 'magic-night';
+  
 }

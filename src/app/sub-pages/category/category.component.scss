@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#carouselExampleSlidesOnly {
+    width: 250px;
+}
+#categoryBox {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+@media screen and (min-width:576px) {
+    #categorySection1{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #categorySection2{
+        display: none;
+    }
+}
