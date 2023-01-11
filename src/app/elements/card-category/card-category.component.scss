@@ -1,5 +1,59 @@
+
 h3 {
     text-transform: capitalize;
+}
+
+.card-front__text-view {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: .2rem;
+}
+
+/* Buttons =================================================*/
+
+.inside-page__btn {
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    overflow: hidden;
+    padding: .7rem .75rem;
+    position: relative;
+    text-decoration: none;
+    transition: all .3s ease;
+    width: 90%;
+    z-index: 10;
+}
+
+.inside-page__btn::before { 
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleY(0);
+    transition: all .3s ease;
+    width: 100%;
+    z-index: -1;
+}
+
+.inside-page__btn--camping { 
+    border-color: #00b97d;
+    color: #00b97d;
+}
+
+.inside-page__btn--camping::before { 
+    background-color: #00b97d;
+}
+
+.inside-page__btn:hover { 
+    color: #fafbfa;
+}
+
+.inside-page__btn:hover::before { 
+    transform: scaleY(1);
 }
 
 /* Card ============================================*/
