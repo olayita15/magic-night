@@ -17,7 +17,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <h2 align=center> Folder architecture </h2>
 
 <p align=center> 
-<image src="https://i.postimg.cc/LXcQ4Rpk/Arquitectura-De-Carpetas.png">
+<image src="https://i.postimg.cc/KzCcZKj9/Arquitectura-De-Carpetas-1.png">
+</p>
+
+<p align=center> 
+<image src="https://www.snsmarketing.es/blog/wp-content/uploads/2016/02/gifanimado.gif">
 </p>
 
 ## Development server
