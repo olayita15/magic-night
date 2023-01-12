@@ -1,4 +1,8 @@
 <h1 align=center> MagicNight </h1>
+<p align=center> 
+<image src="https://i.postimg.cc/wBZQtLfL/all-Products.jpg">
+</p>
+
 <h2> Resumen </h2>
 <p align=justify>El proyecto <strong>Magic Night</strong> es un comercio digital construido a partir del framework <code>Angular</code>.</p>
 <p align=justify>En general, es una tienda virtual que enlaza de forma simple al cliente interesado en conocer más acerca de los productos con la proveedora que ofrece ropa de buena calidad hecha por ella misma.</p>
