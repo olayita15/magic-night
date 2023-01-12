@@ -1,7 +1,7 @@
-<h1 align=center> MagicNight </h1>
-<p align=center> 
+<h1 align=center> Magic Night </h1>
+<a align=center href="https://olayita15.github.io/magic-night/" target="_blank"> 
 <image src="https://i.postimg.cc/d160qTqK/page-Header.png">
-</p>
+</a>
 
 <h2> Resumen </h2>
 <p align=justify>El proyecto <strong>Magic Night</strong> es un comercio digital construido a partir del framework <code>Angular</code>.</p>
