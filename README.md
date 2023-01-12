@@ -30,6 +30,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     <p align=center> 
     <image src="https://i.postimg.cc/sXDLxy1b/card-category3.png">
     </p>
+    <p align=center> 
+    <image src="https://i.postimg.cc/RFgZJMdt/code-snapshot.png">
+    </p>
 </div>
 
 
