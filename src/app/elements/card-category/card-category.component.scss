@@ -1,4 +1,7 @@
 
+$darkgreen: #182C2B;
+$lightgreen: #2F4B4C;
+
 h3 {
     text-transform: capitalize;
 }
@@ -40,12 +43,12 @@ h3 {
 }
 
 .inside-page__btn--camping { 
-    border-color: #00b97d;
-    color: #00b97d;
+    border-color: $lightgreen;
+    color: $lightgreen;
 }
 
 .inside-page__btn--camping::before { 
-    background-color: #00b97d;
+    background-color: $darkgreen;
 }
 
 .inside-page__btn:hover { 
@@ -161,7 +164,7 @@ h3 {
   /* Specifically targeting the <video> element */
 .video__container {
     clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
-    height: auto;
+    height:100px;
     min-height: 100%;
     object-fit: cover;
     width: 100%;

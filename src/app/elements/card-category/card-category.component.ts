@@ -21,4 +21,6 @@ export class CardCategoryComponent {
   @Input() title!:string;
   @Input() text!:string;
   @Input() updated!:string;
+  @Input() video!:string;
+  @Input() description!:string;
 }

@@ -30,8 +30,8 @@
                   </div>
               </div>
               <div class="card-back">
-                  <video class="video__container" autoplay muted loop>
-                      <source class="video__media" src="https://player.vimeo.com/external/180185916.sd.mp4?s=c893e4770f87b00e0d6b5a1de138b01b02aaa085&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+                  <video class="video__container" controls muted>
+                      <source class="video__media" src={{video}} type="video/mp4" >
                   </video>
               </div>
           </div>
@@ -43,7 +43,7 @@
                   {{title}}
               </h3>
               <p class="inside-page__text">
-                Aquí iría la descripción
+                {{description}}
               </p>
               <a class="inside-page__btn inside-page__btn--camping">VER PRODUCTOS</a>
           </div>
