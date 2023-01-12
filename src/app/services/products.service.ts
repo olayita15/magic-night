@@ -12,19 +12,16 @@ export class ProductsService {
   lengthImageCategoryList:number=1
   productFilterList:any[]=[]
   searchList:any[]=[]
-  
   constructor() {
     this.addProduct()
     this.addListCategory()
     this.addImageCategory()
     this.searchList = this.productList
   }
-  
   addProduct(){
     this.productList = data
     console.log(this.productList)
   }
-
   addListCategory(){
     this.productList.forEach((element: { category: any; }) => {
       this.categoryList.push(element.category)
@@ -60,5 +57,4 @@ export class ProductsService {
   findProductList(text:string){
     this.searchList= this.productList.filter(product=>this.filterList(product.title.toLowerCase(),text.toLowerCase())||this.filterList(product.category.toLowerCase(),text.toLowerCase()))
   }
-
 }

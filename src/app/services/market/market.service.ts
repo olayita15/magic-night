@@ -9,7 +9,6 @@ export class MarketService {
   shoppingCartList:any[]=[]
   purchasedItems:number=0;
   constructor(private _service:ProductsService, private _wService:WhatsappService) { }
-  
   addProduct(id:number){
     this.shoppingCartList.push(this._service.findProduct(id))
     alert('Se agregó el item')
@@ -18,10 +17,8 @@ export class MarketService {
   findProduct(id:number){
     return this.shoppingCartList.find(product=>product.id==id)
   }
-
   removeProduct(id:number){
     this.shoppingCartList.splice(this.shoppingCartList.indexOf(this.findProduct(id)),1)
     this.purchasedItems=this.shoppingCartList.length
   }
-
 }

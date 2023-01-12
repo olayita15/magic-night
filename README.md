@@ -22,7 +22,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 <section>
 <p align=center> An important part of the design is in the design of the cards, being playful to attract the public.</p>
-<h3>Card-Category</h3>
+<h3 align=center>Card-Category</h3>
 <div>
     <p align=center> 
     <image src="https://i.postimg.cc/6pF6CjCH/card-category.png">
@@ -38,7 +38,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     </p>
 </div>
 
-<h3>Card-Product</h3>
+<h3 align=center>Card-Product</h3>
 <p align=center> 
     <image src="https://i.postimg.cc/wT6nbX69/chaqueta.png">
 </p>
@@ -47,6 +47,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 </p>
 </section>
 
+<section>
+<h2 align=center>Services</h2>
+<h3 align=center>Product Service</h2>
+<p align=center> 
+    <image src="https://i.postimg.cc/1tNfZ2w6/product-Service-Code.png">
+</p>
+<h3 align=center>Whatsapp Service</h2>
+<p align=center> 
+    <image src="https://i.postimg.cc/LsJszwy7/whatsapp-Service-Code.png">
+</p>
+<h3 align=center>Market Service</h2>
+<p align=center> 
+    <image src="https://i.postimg.cc/25WDjD9z/market-Service-Code.png">
+</p>
+</section>
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
