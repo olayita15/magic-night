@@ -19,6 +19,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <p align=center> 
 <image src="https://i.postimg.cc/KzCcZKj9/Arquitectura-De-Carpetas-1.png">
 </p>
+
+<section>
+<p align=center> An important part of the design is in the design of the cards, being playful to attract the public.</p>
 <h3>Card-Category</h3>
 <div>
     <p align=center> 
@@ -35,6 +38,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     </p>
 </div>
 
+<h3>Card-Product</h3>
+<p align=center> 
+    <image src="https://i.postimg.cc/wT6nbX69/chaqueta.png">
+</p>
+<p align=center> 
+    <image src="https://i.postimg.cc/SRXdwxt7/chaqueta-Code.png">
+</p>
+</section>
 
 ## Development server
 
