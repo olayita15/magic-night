@@ -1,6 +1,6 @@
 <h1 align=center> MagicNight </h1>
 <p align=center> 
-<image src="https://i.postimg.cc/wBZQtLfL/all-Products.jpg">
+<image src="https://i.postimg.cc/d160qTqK/page-Header.png">
 </p>
 
 <h2> Resumen </h2>
