@@ -1,4 +1,12 @@
 <h1 align=center> MagicNight </h1>
+<h2> Resumen </h2>
+<p align=justify>El proyecto <strong>Magic Night</strong> es un comercio digital construido a partir del framework <code>Angular</code>.</p>
+<p align=justify>En general, es una tienda virtual que enlaza de forma simple al cliente interesado en conocer más acerca de los productos con la proveedora que ofrece ropa de buena calidad hecha por ella misma.</p>
+
+<h2> Abstract </h2>
+<p align=justify>The project <strong>Magic Night</strong> is a digital commerce built from the framework <code>Angular</code>.</p>
+<p align=justify>In general, it is a virtual store that simply links the customer interested in learning more about the products with the supplier that offers good quality clothing made by itself.</p>
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
