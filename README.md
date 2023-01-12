@@ -1,6 +1,6 @@
 <h1 align=center> Magic Night </h1>
 <a align=center href="https://olayita15.github.io/magic-night/" target="_blank"> 
-<image src="https://i.postimg.cc/d160qTqK/page-Header.png">
+<image src="https://i.postimg.cc/d0PVPZ74/page-Header-12.png">
 </a>
 
 <h2 align=center> Resumen </h2>
@@ -19,10 +19,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <p align=center> 
 <image src="https://i.postimg.cc/KzCcZKj9/Arquitectura-De-Carpetas-1.png">
 </p>
+<h3>Card-Category</h3>
+<div>
+    <p align=center> 
+    <image src="https://i.postimg.cc/6pF6CjCH/card-category.png">
+    </p>
+    <p align=center> 
+    <image src="https://i.postimg.cc/fyPp1Fzp/card-category2.png">
+    </p>
+    <p align=center> 
+    <image src="https://i.postimg.cc/sXDLxy1b/card-category3.png">
+    </p>
+</div>
 
-<p align=center> 
-<image src="https://www.snsmarketing.es/blog/wp-content/uploads/2016/02/gifanimado.gif">
-</p>
 
 ## Development server
 
