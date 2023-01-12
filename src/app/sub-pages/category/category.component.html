@@ -2,21 +2,25 @@
 <h1>Categorías</h1>
 <hr>
 <section id="categorySection1">
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <app-card-category [title]="firstCategory" [image]="firstImageCategory" [routerLink]="['/product',firstCategory]"></app-card-category>
-      </div>
-      <div class="carousel-item" *ngFor="let category of categorys; index as i" [routerLink]="['/product',categorys[i]]">
-        <app-card-category [title]="category" [image]="ImageCategory[i]"></app-card-category>
+  <div class="d-flex align-items-center justify-content-center">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <app-card-category [title]="firstCategory" [image]="firstImageCategory"  [routerLink]="['/product',firstCategory]"></app-card-category>
+        </div>
+        <div class="carousel-item" *ngFor="let category of categorys; index as i" [routerLink]="['/product',categorys[i]]">
+          <app-card-category [title]="category" [image]="ImageCategory[i]"></app-card-category>
+        </div>
       </div>
     </div>
   </div>
+  
+
 </section>
 <section id="categorySection2">
   <div id="categoryBox" class="d-flex flex-row flex-wrap-reverse justify-content-around">
     <a class="mx-5" *ngFor="let category of categorys; index as i" [routerLink]="['/product',categorys[i]]">
-      <app-card-category [title]='categorys[i]' [image]='ImageCategory[i]'></app-card-category>
+      <app-card-category [title]='categorys[i]' [image]='ImageCategory[i]' [video]='video'></app-card-category>
     </a>
   </div>
 </section>
